@@ -12,6 +12,7 @@ In this project, I created a front end using basic HTML, CSS, and Javascript, an
 
 1. When you are downloading all files I will prefer to download in Zip files.
 2. Before running this in your local machine you have to install NodeJS.
-3. Go to the backend folder and target your git terminal in your back end and run this command "npm i inquirer qr-image.
-4. Now you can see some files will be downloaded and three new files will be created name as package.json, Package-lock.json.
-5. Now you have edit package.json file and there you have to write "type":"module" over dependencies inside javascript object curly braces.
+3. Go to the backend folder and target your git terminal in your back end folder and run this command "npm i inquirer qr-image.
+4. Now you can see some files will be downloaded and two new files will be created name as package.json, package-lock.json.
+5. Now you have edit package.json file and there you have to write "type":"module" over dependencies inside curly braces.
+6. Now after doing these things run this command npm init -y in your terminal targetting back end folder.
