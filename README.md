@@ -2,7 +2,7 @@
 
 Hey everyone! In this project, I have created a complete web app where a user can enter any URL, and then a QR image will be generated based on the URL that is entered by the user.
 
-![Webapp-look](/qr-image/assets/website-look.PNG)
+![Webapp-look](/assets/website-look.PNG)
 
 
 ## What things I am used
