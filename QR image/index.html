@@ -14,19 +14,21 @@
     />
   </head>
   <body>
-    <div class="main">
-      <h4>Home</h4>
-      <h4>Blog</h4>
-      <h4>About</h4>
-      <h4>Let's Connect</h4>
-    </div>
-    <div class="body">
-      <input type="text" id="inputText" placeholder="Enter text" />
-      <button id="generateButton">Generate</button>
+    <div>
+      <div class="main">
+        <h4>Home</h4>
+        <h4>Blog</h4>
+        <h4>About</h4>
+        <h4>Let's Connect</h4>
+      </div>
+      <div class="generator">
+        <input type="text" id="inputText" placeholder="Enter text" />
+        <button id="generateButton">Generate</button>
+      </div>
       <h4>For getting your QR image just enter the address in the input bar</h4>
+      <div id="qrcode"></div>
+      <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+      <script src="./index.js"></script>
     </div>
-    <div id="qrcode"></div>
-    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
-    <script src="./index.js"></script>
   </body>
 </html>
