@@ -50,3 +50,8 @@ form{
     justify-content: center;
     align-items: center;
 }
+.body input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

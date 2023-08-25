@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Convert URL into QR code</title>
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="main">
-        <h4>Home</h4>
-        <h4>Blog</h4>
-        <h4>About</h4>
-        <h4>Let's Connect</h4>
+      <h4>Home</h4>
+      <h4>Blog</h4>
+      <h4>About</h4>
+      <h4>Let's Connect</h4>
     </div>
     <div class="body">
-        <form action="https://localhost:3000/" class="data">
-            <label for="url">Enter Your URL</label>
-            <input type="text" name="url" required>
-            <input type="Submit" value="Submit">
-        </form>
-        <h4>For getting your QR image just enter the address in the input bar</h4>
-        
+      <input type="text" id="inputText" placeholder="Enter text" />
+      <button id="generateButton">Generate QR Code</button>
+      <div id="qrcode"></div>
+      <h4>For getting your QR image just enter the address in the input bar</h4>
     </div>
-</body>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
 </html>
