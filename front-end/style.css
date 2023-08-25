@@ -44,6 +44,7 @@ form{
     background-color: #FAF1E4;
     width: 100%;
     height: 100%;
+
 }
 .body h4{
     display: flex;
@@ -54,4 +55,8 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+button {
+    height: 20px;
+    width: 80px;
 }
